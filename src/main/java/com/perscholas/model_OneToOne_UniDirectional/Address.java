@@ -17,6 +17,7 @@ import javax.persistence.Table;
         @GeneratedValue( strategy= GenerationType.IDENTITY )
         private int AddressId;
         private String street;
+        //
         private String city;
         private String state;
         private int zipcode;
