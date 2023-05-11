@@ -21,9 +21,10 @@
         <property name="hibernate.show_sql" >true </property>
         <property name="hibernate.format_sql" >true </property>
 
+        <mapping class="com.perscholas.model_OneToOne_UniDirectional.Address"/>
+        <mapping class="com.perscholas.model_OneToOne_UniDirectional.Person"/>
 
-        <mapping class="com.perscholas.model_OneToMany_UniDirectional.Department"/>
-        <mapping class="com.perscholas.model_OneToMany_UniDirectional.Teacher"/>
+
 
 
 
