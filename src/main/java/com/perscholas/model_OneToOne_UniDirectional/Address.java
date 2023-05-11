@@ -18,6 +18,7 @@ import javax.persistence.Table;
         private int AddressId;
         private String street;
         //
+        //
         private String city;
         private String state;
         private int zipcode;
